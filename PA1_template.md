@@ -108,7 +108,9 @@ median(total_per_day_imputed)
 ```
   
 **Compare activity patterns for weekdays and weekends**  
-
+From the panel plot, it is clear that on weekdays, there is a higher activity peak,  
+with steps well over 200, followed by an extended period of low activity (sitting in front of a computer?).  
+On weekends, the activity pattern is more homogeneous, spreading across all day without obvious peaks.
 
 ```r
 library(lubridate)
